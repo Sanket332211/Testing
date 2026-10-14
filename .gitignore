@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables & secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Playwright & test reports
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# IDE & OS files
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
+
+# Internal Candidate Interview Prep Notes (Not for submission/git)
+EXPLANATION_README.md
+INTERVIEW_PREP_EXPLANATION.md
+AbleSpace_QA_Assignment_Submission.zip
+
